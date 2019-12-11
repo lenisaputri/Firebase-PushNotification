@@ -47,6 +47,16 @@ public class MainActivity extends AppCompatActivity {
         editNotifySubtexttxt = findViewById(R.id.notifySubtextTxt);
 
         Create = (Button)findViewById(R.id.notifyBtn);
+        Button clear = (Button) findViewById(R.id.clearBtn);
+
+        clear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editTitletxt.setText("");
+                editNotifytexttxt.setText("");
+                editNotifySubtexttxt.setText("");
+            }
+        });
 
         Create.setOnClickListener(new View.OnClickListener() {
             @Override
