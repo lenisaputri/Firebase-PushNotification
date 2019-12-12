@@ -12,19 +12,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/titleTxt"
-        android:hint="title text" />
+        android:hint="Nama Barang" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/notifytexttTxt"
-        android:hint="notify message" />
+        android:hint="Deskripsi Barang" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/notifySubtextTxt"
-        android:hint="sub text" />
+        android:hint="Harga" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -37,7 +37,7 @@
             android:id="@+id/notifyBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Create"
+            android:text="ADD"
             android:layout_weight="1"/>
 
         <Button
