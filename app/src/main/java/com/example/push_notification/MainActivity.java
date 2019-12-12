@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
         mDatabase = database.getReference("Message");
 
         // define the textview
-        editTitletxt = findViewById(R.id.titleTxt);
-        editNotifytexttxt = findViewById(R.id.notifytexttTxt);
-        editNotifySubtexttxt = findViewById(R.id.notifySubtextTxt);
+        editTitletxt = findViewById(R.id.namaBarang);
+        editNotifytexttxt = findViewById(R.id.hargaBarang);
+        editNotifySubtexttxt = findViewById(R.id.DeskBarang);
 
         Create = (Button)findViewById(R.id.notifyBtn);
         Button clear = (Button) findViewById(R.id.clearBtn);
